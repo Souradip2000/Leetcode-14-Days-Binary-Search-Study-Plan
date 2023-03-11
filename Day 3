@@ -1,0 +1,14 @@
+367. Valid Perfect Square
+
+class Solution {
+public:
+    bool isPerfectSquare(int num) {
+       for(long long i=1; i<=num; i++)
+       {
+           long long x=i*i;
+           if(x==num)
+            return true;
+       } 
+       return false;
+    }
+};
